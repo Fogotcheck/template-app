@@ -1,0 +1,35 @@
+{
+  "C_Cpp.intelliSenseEngine": "Tag Parser",
+  "idf.customExtraVars": {
+    "OPENOCD_SCRIPTS": "C:\\Users\\win10\\.espressif\\tools\\openocd-esp32\\v0.11.0-esp32-20221026/openocd-esp32/share/openocd/scripts",
+    "IDF_CCACHE_ENABLE": "1"
+  },
+  "idf.portWin": "COM16",
+  "idf.flashType": "UART",
+  "files.associations": {
+    "Makefile": "c",
+    "MakeFile": "makefile",
+    "array": "c",
+    "*.tcc": "c",
+    "string": "c",
+    "unordered_map": "c",
+    "memory": "c",
+    "string_view": "c",
+    "fstream": "c",
+    "future": "c",
+    "istream": "c",
+    "ostream": "c",
+    "sstream": "c",
+    "stop_token": "c",
+    "streambuf": "c",
+    "thread": "c",
+    "functional": "c",
+    "regex": "c",
+    "tuple": "c"
+  },
+  "idf.adapterTargetName": "esp32",
+  "idf.openOcdConfigs": [
+    "interface/ftdi/esp32_devkitj_v1.cfg",
+    "target/esp32.cfg"
+  ]
+}
